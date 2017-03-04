@@ -1,0 +1,8 @@
+{
+  "name": "env-master",
+  "productName": "EnvMaster",
+  "version": "0.0.1",
+  "main": "./main.js",
+  "author": "Fantasy Shao <fantasyshao@icloud.com>",
+  "license": "MIT"
+}
