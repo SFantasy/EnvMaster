@@ -1,7 +1,9 @@
 import React from 'react';
 import { render } from 'react-dom';
 
+import Dashboard from './Dashboard';
+
 render(
-  <h1>EnvMaster</h1>,
+  <Dashboard />,
   document.getElementById('app')
 );
