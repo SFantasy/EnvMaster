@@ -7,7 +7,7 @@
   "repository": "git@github.com/SFantasy/env-master",
   "license": "MIT",
   "scripts": {
-    "start": "NODE_ENV=development node -r babel-register server.js",
+    "start": "HOT=1 NODE_ENV=development node -r babel-register server.js",
     "start-app": "NODE_ENV=development electron -r babel-register -r babel-polyfill ./app/main"
   },
   "dependencies": {
@@ -25,13 +25,17 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.0",
+    "express": "^4.15.0",
     "file-loader": "^0.10.1",
+    "json-loader": "^0.5.4",
     "minimist": "^1.2.0",
     "node-sass": "^4.5.0",
-    "sass-loader": "^6.0.2",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "sass-loader": "^4.1.1",
     "style-loader": "^0.13.2",
     "url-loader": "^0.5.8",
-    "webpack": "^2.2.1",
-    "webpack-dev-server": "^2.4.1"
+    "webpack": "^1.14.0",
+    "webpack-dev-middleware": "^1.9.0",
+    "webpack-hot-middleware": "^2.15.0"
   }
 }
