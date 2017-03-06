@@ -8,8 +8,8 @@ app.on('window-all-closed', () => {
 
 app.on('ready', () => {
   mainWindow = new BrowserWindow({
-    width: 430,
-    height: 768,
+    width: 400,
+    minHeight: 580,
   });
 
   mainWindow.loadURL(`file://${__dirname}/index.html`);
