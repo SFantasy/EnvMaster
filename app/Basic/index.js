@@ -7,7 +7,7 @@ export default class Dashboard extends Component {
     return (
       <div className="dashboard">
         <section>
-          <h2>Requirements</h2>
+          <h2 className="section__title">Requirements</h2>
           <ul>
             <li>
               <span>Homebrew</span>

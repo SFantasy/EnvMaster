@@ -1,0 +1,36 @@
+.dashboard {
+  //padding: 0 20px;
+}
+
+.header {
+  background-color: white;
+}
+
+.brand {
+  font-size: 40px;
+  color: #333;
+  margin: 20px 0;
+
+  small {
+    font-weight: normal;
+    font-size: 16px;
+    color: #999;
+  }
+}
+
+.description {
+  color: #666;
+  margin: 0;
+}
+
+.section__title {
+  color: #7f7f7f;
+  font-size: 14px;
+  height: 40px;
+  margin: 0;
+  padding: 0 15px;
+  line-height: 40px;
+  font-weight: normal;
+  -webkit-user-select: none;
+  background-color: rgba(255, 255, 255, .9);
+}
