@@ -5,10 +5,10 @@ import './style.scss';
 export default (props) => (
   <div className="layout">
     <ul className="menu">
-      <li><Link to="basic">Basic</Link></li>
+      <li><Link to="/">基础设置</Link></li>
       <li><Link to="node">Node.js</Link></li>
-      <li><Link to="about">About</Link></li>
+      <li><Link to="about">关于</Link></li>
     </ul>
-    {props.children}
+    <div className="container">{props.children}</div>
   </div>
 );

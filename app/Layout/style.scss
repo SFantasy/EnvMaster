@@ -6,3 +6,35 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
 }
+
+.layout {
+  display: flex;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  height: 100vh;
+  background-color: #444;
+
+  li > a {
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: #ddd;
+    font-size: 16px;
+    padding: 10px 8px;
+    transition: all .3s ease;
+
+    &:hover {
+      color: #fff;
+      background-color: #333;
+    }
+  }
+}
+
+.container {
+  flex: 1;
+  padding: 10px;
+}
