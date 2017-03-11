@@ -10,7 +10,7 @@ import About from './About';
 render(
   <Router history={hashHistory}>
     <Route path="/" component={Layout}>
-      <Route path="basic" component={Basic} />
+      <IndexRoute component={Basic} />
       <Route path="node" component={Node} />
       <Route path="about" component={About} />
     </Route>
