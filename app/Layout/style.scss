@@ -38,3 +38,32 @@ body {
   flex: 1;
   padding: 10px;
 }
+
+.page {
+
+  &__title {
+    margin: 0;
+    font-weight: normal;
+    letter-spacing: .05em;
+  }
+
+  &__paragraph {
+    color: #666;
+    font-size: 16px;
+  }
+
+  a {
+    color: #777;
+    transition: color .3s ease;
+
+    &:hover {
+      color: #333;
+    }
+  }
+
+  &__footer {
+    padding: 10px 0;
+    border-top: 1px solid #e2e2e2;
+    color: #999;
+  }
+}
